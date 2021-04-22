@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #66bfbf;
+	/*text-align: center;*/
+	margin: 0;
+}
+/*-------styling the title of the project-------*/
+header{
+	text-align: center;
+	font-size: larger;
+    font-weight: bold;
+    color: #16213e;
+    align-content: center;
+}
+
+/*-------styling the footer-------*/
+footer{
+	text-align: center;
+}
+    p {
+        font-size: 32px;
+        font-weight: bold;
+        /*font-family: Arial,sans-serif;*/
+        color: #16213e;
+    }
+
+/*-------styling the user detail & quistions of the quiz-------*/
+form{
+     justify-content:left;
+      color: #16213e;
+     /*background-color: white;*/
+     /*border: 1px solid;*/
+     border-radius: 2px;
+     padding: 20px 30px;
+     box-shadow: 2px 5px #888888
+     /*max-width: 450px;*/
+     margin: 0 auto	
+   }
+
+.form-control input{
+	border: 1px solid;
+	border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+/*-------styling the user detail "Name & email"-------*/
+.label { 
+     /*background-color: white;*/
+	    display: block;	
+      margin-bottom: 6px;
+	    border-radius: 2px;
+      padding: 5px;
+      width: 200px;
+      color: #810000;
+      vertical-align: middle
+    }
+ 
+ label{
+ 	    font-size: 15px;
+ 	    font-weight: bold;
+ 	    vertical-align: middle
+      }
+
+/*-------styling the buttons "view result & finish" -------*/
+ button{
+  	   background-color: #16213e;
+	     padding: 13px 28px;
+	     border-radius: 2px;
+	     border: 1px solid #e5e4cc;
+	     width: 100px;
+	     font-size: 14px;
+       font-weight: bold;
+	     color: white;
+	     text-align: center;
+      }
+
+ button:hover{
+       opacity: 0.9;
+       color: #050505;
+    }
+

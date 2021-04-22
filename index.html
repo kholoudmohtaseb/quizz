@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Online Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- --------------Title of the project------------- -->
+    <header>
+      <h1>Online Quiz</h1>
+    </header>   
+
+    
+   <!-- -------------- Quiz ------------- -->
+    <form name="Quiz" action="/" method="GET" id="form">
+<div> 
+    <!-- ---------Detaials of the user---------   -->
+    <label for="name" class="label">Name</label>
+    <input type="text" name="user" id="user" class="label" placeholder="Enter your name" >
+    <!-- <input type="text" name="user" id="user" class="label" placeholder="Enter your name" required> -->
+
+    <label for="email" class="label">Email</label>
+    <input type="text" name="email" id="email" class="label" placeholder="Enter your email">
+    <!-- <input type="text" name="email" id="email" class="label" placeholder="Enter your email" required>   -->
+
+<!--    <label for="password" class="label">Password</label>
+    <input type="password" name="password" id="password" class="label"placeholder="Enter your Password" required> -->
+</div><br>
+
+  
+  <!-- ----------------Questions------------ -->
+
+    Q1. What is the capital of Egypt? <br>
+    <input type="radio" name="q1" value="a" id="Cairo">Cairo<br> 
+    <input type="radio" name="q1" value="b">Amman<br>
+    <input type="radio" name="q1" value="c">Doha<br><br>
+
+    Q2. What is the capital of France? <br>
+    <input type="radio" name="q2" value="a">London<br>
+    <input type="radio" name="q2" value="b" id="Paris">Paris<br>
+    <input type="radio" name="q2" value="c">Roma<br><br>
+
+    Q3. What is the capital of Japan? <br>
+    <input type="radio" name="q3" id="Tokyo">Tokyo<br>
+    <input type="radio" name="q3" value="b">Madrid<br>
+    <input type="radio" name="q3" value="c">Damasqus<br><br>
+
+    Q4. What is the capital of Palestine? <br>
+    <input type="radio" name="q4" value="a">Baghdad<br>
+    <input type="radio" name="q4" value="b">Tunisia<br>
+    <input type="radio" name="q4" value="c" id="Jerusalem">Jerusalem<br><br>
+
+    Q5. What is the capital of Austria? <br>
+    <input type="radio" name="q5" value="a">Oslo<br>
+    <input type="radio" name="q5" value="b" id="Vienna">Vienna<br>
+    <input type="radio" name="q5" value="c">Riyadh<br><br><br>
+
+
+    <footer>
+        <!-- button to view the result -->
+    <button type="button" onclick="Check()">View result</button><br><br> 
+
+         <!-- button to end the Quiz -->
+    <button type="button" id="finishbtn" onclick="FillDetails()" >Finish</button><br><br>
+
+    <!-- -----adding good luck at the end----- -->
+    <p>Good Luck<br><br>
+    </footer><br><br>
+    </form>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
